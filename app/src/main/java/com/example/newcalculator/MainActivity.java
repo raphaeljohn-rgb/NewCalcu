@@ -40,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ob1);
             }
         });
+        multi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ob2=new Intent(getApplicationContext(), Multinum.class);
+                startActivity(ob2);
+            }
+        });
 
 
 
