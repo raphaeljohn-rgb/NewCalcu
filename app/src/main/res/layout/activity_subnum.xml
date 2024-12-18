@@ -7,7 +7,7 @@
     <TextView
         android:textAlignment="center"
         android:textColor="#2ECC71"
-        android:text="SUB"
+        android:text="ADDITION"
         android:textStyle="italic"
         android:textSize="60dp"
         android:layout_width="match_parent"
