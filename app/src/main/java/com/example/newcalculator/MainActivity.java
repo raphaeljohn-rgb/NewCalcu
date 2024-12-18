@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ob);
             }
         });
-        add.setOnClickListener(new View.OnClickListener() {
+        sub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ob=new Intent(getApplicationContext(), Subnum.class);
-                startActivity(ob);
+                Intent ob1=new Intent(getApplicationContext(), Subnum.class);
+                startActivity(ob1);
             }
         });
 
